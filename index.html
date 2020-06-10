@@ -60,12 +60,13 @@
 
             <!-- Main Search Form -->
               <div id="search">
-                <form> 
-                  <input type="search" id="searchbar" autofocus>
+                <form action="https://www.google.com/search"> 
+                  <input type="search" id="searchbar" name="q" autofocus>
                   <br>
                   <div id="search_buttons">
-                    <a href="" target="_blank" class="searchbutton" id="searchbuttonleft">Google Search</a>
-                    <a href="" target="_blank" class="searchbutton" id="searchbuttonright">I'm Feeling Lucky</a>
+                    <button type="submit" id="searchbuttonleft" >Google Search</button>
+                    <button id="searchbuttonright" action="http://www.google.com/search?q=term&btnI">I'm Feeling Lucky</button>
+
                   </div>
                 </form>
               </div>
